@@ -258,3 +258,16 @@ controller.up.onEvent(ControllerButtonEvent.Pressed,function()
 
 {dancer.x = arrowXs[1]}
 )
+
+
+controller.right.onEvent(ControllerButtonEvent.Pressed,function()
+
+
+{dancer.x = arrowXs[2]}
+)
+
+controller.down.onEvent(ControllerButtonEvent.Pressed,function()
+
+
+{dancer.x = arrowXs[3]}
+)
